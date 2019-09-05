@@ -3,4 +3,4 @@ $ export ARCH=arm 
 $ export SUBARCH=arm 
 $ cp goldfish-config .config
 $ make -j4
-
+$ cp ./arch/arm/boot/zImage zImage-armv7
